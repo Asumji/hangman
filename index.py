@@ -6,6 +6,7 @@ clear = lambda: os.system('cls')
 
 word = input("What's your sentence/word? ")
 clear()
+word = word.lower()
 wordHidden = word.split(" ")
 string = ""
 count = -1
